@@ -8,3 +8,9 @@ description = "variables do not work with hasPrefix inside render-link"
 +++
 
 [link text](https://my.test.link "link title")
+
+[link text]({{< param link >}}/register/ "link title")
+
+[link text]({{< param link >}}/register/)
+
+[link text]({{< param link >}})
